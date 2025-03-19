@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>Wewnętrzny arkusz stylów</h1>
+<ol>
+<li>
+<h2>1. Gdzie umieszczamy wewnętrzny arkusz stylów?</h2>
+<p>Wewnętrzny arkusz stylów jest umieszczany w sekcji <b>&lt;head&gt;</b> dokumentu HTML, pomiędzy znacznikami <b>&lt;style&gt;</b> i <b>&lt;/style&gt;</b>. Wszystkie style są zapisane wewnątrz tych znaczników.</p>
+</li>
+<li>
+<h2>2. Jak wygląda składnia teoretyczna stylu lokalnego (z użyciem ramki)?</h2>
+<table border="1" width="80%" align="center">
+<tr>
+<td>
+&lt;head&gt;<br>
+&lt;style type="text/css"&gt;<br>
+selektor1 { cecha: wartość; }<br>
+selektor2 { cecha2: wartość2; }<br>
+&lt;/style&gt;<br>
+&lt;/head&gt;
+</td>
+</tr>
+</table>
+</li>
+<li>
+<h2>3. Jakie rodzaje selektorów możemy używać?</h2>
+<p>Wewnętrzny arkusz stylów umożliwia stosowanie różnych selektorów HTML, takich jak:<br>
+<ul>
+<li>h1 - nagłówek poziomu 1</li>
+<li>div - element blokowy</li>
+<li>p - akapit</li>
+<li>span - element inline</li>
+<li>#identyfikator - selektor identyfikatora</li>
+<li>.klasa - selektor klasy</li>
+</ul>
+Selektory definiują, które elementy HTML będą miały przypisane określone style.</p>
+</li>
+<li>
+<h2>4. Jakie cechy i wartości mogą być używane w stylach?</h2>
+<p><b>Cecha</b> to właściwość elementu, którą chcemy zmienić. Przykłady cech to:<br>
+<ul>
+<li>background-color - kolor tła</li>
+<li>font-size - rozmiar czcionki</li>
+<li>color - kolor tekstu</li>
+<li>margin - margines</li>
+</ul>
+<b>Wartości</b> to konkretne ustawienia, które przypisujemy do cech. Przykłady wartości to:<br>
+<ul>
+<li>#FFFF00 - dla background-color</li>
+<li>10px, 1em - dla font-size</li>
+<li>purple, #800080 - dla color</li>
+<li>0, 10px - dla margin</li>
+</ul>
+Deklaracje stylów są tworzone, łącząc cechy i ich wartości, aby określić wygląd poszczególnych elementów.</p>
+</li>
+</ol>
+</body>
+</html>
