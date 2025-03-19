@@ -1,0 +1,76 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>Opis stylu zewnętrznego</h1>
+<ol>
+<li>
+<h2>1. Jak wygląda składnia teoretyczna stylu zewnętrznego?</h2>
+<table border="1" width="80%" align="center">
+<tr>
+<td>
+&lt;head&gt;<br>
+&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;<br>
+&lt;/head&gt;
+</td>
+</tr>
+</table>
+</li>
+<li>
+<h2>2. Gdzie należy umieścić styl zewnętrzny i jaki znacznik jest za to odpowiedzialny? Ile razy może występować w dokumencie HTML?</h2>
+<p>Styl zewnętrzny należy dodać w sekcji <b>&lt;head&gt;</b> dokumentu HTML za pomocą znacznika <b>&lt;link&gt;</b>. W jednym dokumencie HTML może być użyty tylko jeden taki znacznik dla każdego zewnętrznego arkusza stylów.</p>
+</li>
+<li>
+<h2>3. Jak wygląda najprostsza forma wstawienia stylu zewnętrznego?</h2>
+<p>Najprostszy sposób wstawienia stylu zewnętrznego polega na umieszczeniu poniższego znacznika w sekcji <b>&lt;head&gt;</b>:</p>
+<table border="1" width="80%" align="center">
+<tr>
+<td>
+&lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+</td>
+</tr>
+</table>
+</li>
+<li>
+<h2>4. Ile arkuszy stylów może być dołączonych do jednego dokumentu HTML, i jaką zasadę należy stosować przy wielu arkuszach?</h2>
+<p>Nie ma limitu liczby arkuszy stylów, które można dołączyć do dokumentu HTML. W przypadku wielu arkuszy, ważne jest przestrzeganie zasady kaskadowości, aby ustalić, który styl ma priorytet w przypadku konfliktów.</p>
+</li>
+<li>
+<h2>5. Co się dzieje, gdy wystąpią konflikty między stylami z różnych arkuszy?</h2>
+<p>Jeśli style się pokrywają, priorytet mają deklaracje z arkusza, który został dołączony później. Kolejność dołączania arkuszy decyduje o ostatecznej stylizacji, zgodnie z zasadą kaskadowości.</p>
+</li>
+<li>
+<h2>6. Jak tworzyć i edytować pliki arkuszy stylów za pomocą edytora tekstowego?</h2>
+<p>Pliki arkuszy stylów można tworzyć i edytować w zwykłych edytorach tekstowych, takich jak Notepad, Sublime Text czy Visual Studio Code. Plik należy zapisać z rozszerzeniem <code>.css</code>.</p>
+</li>
+<li>
+<h2>7. Jak tworzyć i edytować pliki arkuszy stylów przy użyciu specjalistycznych edytorów CSS?</h2>
+<p>Arkushy stylów mogą być również tworzone i edytowane za pomocą edytorów dedykowanych CSS, takich jak <b>Adobe Dreamweaver</b> lub <b>WebStorm</b>. Te edytory oferują dodatkowe funkcje, takie jak automatyczne podpowiedzi składniowe.</p>
+</li>
+<li>
+<h2>8. Jakie rozszerzenie ma plik zewnętrznego arkusza stylów?</h2>
+<p>Plik zewnętrznego arkusza stylów ma rozszerzenie <b>*.css</b>.</p>
+</li>
+<li>
+<h2>9. Jakie są zalety stosowania zewnętrznego arkusza stylów? (Podaj dwie zalety)</h2>
+<p><u>Zalety zewnętrznego arkusza stylów:</u></p>
+<ol>
+<li>Umożliwia szybką zmianę wyglądu wszystkich stron witryny, edytując tylko jeden plik.</li>
+<li>Ułatwia zarządzanie i utrzymanie spójności stylistycznej w projekcie, ponieważ wszystkie style znajdują się w jednym miejscu.</li>
+</ol>
+</li>
+<li>
+<h2>10. Wskazówki dotyczące pisania w CSS</h2>
+<p><u>Wskazówki na temat pisania w CSS:</u></p>
+<ol>
+<li>Znacznik <b>&lt;link&gt;</b> musi zawsze znajdować się w sekcji <b>&lt;head&gt;</b> dokumentu.</li>
+<li>W jednym dokumencie HTML można umieścić wiele zewnętrznych arkuszy stylów, każdy z osobnym znacznikiem <b>&lt;link&gt;</b>.</li>
+<li>W przypadku konfliktów między stylami z różnych arkuszy, ostateczna stylizacja zależy od kolejności ich dołączania.</li>
+<li>Zewnętrzny arkusz stylów to zwykły plik tekstowy, który można stworzyć w edytorze tekstowym.</li>
+<li>Plik arkusza musi mieć rozszerzenie <b>*.css</b>.</li>
+</ol>
+</li>
+</ol>
+</body>
+</html>
