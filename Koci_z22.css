@@ -1,0 +1,16 @@
+p{
+    color:red;
+    font-size: 22pt;
+}
+
+p#gruby_Kociszewska{
+    color:green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszytkich_Kociszewska{
+    color:yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}
