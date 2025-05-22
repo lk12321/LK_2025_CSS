@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            border: 1px solid black;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+
+<h1>1) Opis znacznika DIV</h1>
+<p>
+    Znacznik <b>&lt;div&gt;</b> to <u>element blokowy</u>, co oznacza, że jest wyświetlany jako osobny blok i zajmuje całą szerokość dostępnej przestrzeni. Może zawierać zwykły tekst oraz inne elementy HTML, w tym także inne elementy blokowe.
+</p>
+
+<table>
+    <tr>
+        <td>
+            &lt;div style="cecha: wartość; cecha2: wartość2..."&gt;...&lt;/div&gt;
+        </td>
+    </tr>
+</table>
+
+<p>
+    <b>Zastosowanie:</b> DIV służy do tworzenia większych sekcji w dokumencie, np. kolumn, nagłówków, stopek. Ułatwia organizację struktury strony oraz umożliwia stosowanie stylów CSS dla większych obszarów.
+</p>
+<p>
+    <b>Opis teoretyczny:</b> Znacznik DIV odgrywa ważną rolę przy tworzeniu układu strony. Umożliwia grupowanie różnych elementów, aby można było je wspólnie stylizować lub pozycjonować.
+</p>
+
+  
+<p><b>Atrybuty:</b> align, class, dir, id, lang, style, title</p>
+  
+<p><b>ALIGN:</b> Atrybut ALIGN określa poziome ustawienie zawartości. Jest przestarzały (zdeprecjonowany). Może przyjmować wartości:
+    <ul>
+        <li>left – wyrównanie do lewej</li>
+        <li>right – wyrównanie do prawej</li>
+        <li>center – wyśrodkowanie</li>
+        <li>justify – wyrównanie do obu marginesów</li>
+    </ul>
+</p>
+
+<hr>
+
+<h1>2) Opis znacznika SPAN</h1>
+
+<p>
+    Znacznik <b>&lt;span&gt;</b> to <u>element liniowy</u>, który wyświetla się w tej samej linii co sąsiadujące treści. Nie może zawierać elementów blokowych, ale może zawierać tekst i inne elementy liniowe.
+</p>
+
+<table>
+    <tr>
+        <td>
+            &lt;span style="cecha1: wartość1; cecha2: wartość2..."&gt;...&lt;/span&gt;
+        </td>
+    </tr>
+</table>
+
+<p>
+    <b>Zastosowanie:</b> Używamy go, gdy chcemy wyróżnić część tekstu wewnątrz większego akapitu – np. zmienić kolor lub pogrubienie. Nie powinno się do tego używać elementu DIV, ponieważ nie wolno umieszczać elementu blokowego wewnątrz paragrafu.
+</p>
+
+<p>
+    <b>Opis teoretyczny:</b> SPAN pozwala zaznaczyć fragment tekstu bez wprowadzania zmian w strukturze strony. Sam nie narzuca żadnego wyglądu, dzięki czemu świetnie nadaje się do stosowania stylów CSS.
+</p>
+
+<hr>
+
+<h1>3) Różnica między znacznikami DIV i SPAN</h1>
+
+<p>
+    Oba znaczniki służą do <u>wyodrębniania części dokumentu</u> w celu ich stylizacji lub organizacji. <b>DIV</b> to element <b>blokowy</b> – wyświetla się jako osobna sekcja, a <b>SPAN</b> to element <b>liniowy</b> – umieszczany w linii z innym tekstem.
+</p>
+<p>
+    DIV stosujemy do większych struktur strony (np. kolumny, stopki), a SPAN do zaznaczenia drobnych fragmentów tekstu wewnątrz innych elementów (np. podkreślenie, kolorowanie słowa).
+</p>
+
+<hr>
+
+<h1>4) Opisz oraz wymień elementy/tagi: 1) liniowe 2) blokowe 3) blokowo-liniowe</h1>
+
+<p>
+    Elementy HTML dzielą się na:
+</p>
+
+<ol>
+    <li><b>Liniowe (inline):</b> &lt;span&gt;, &lt;em&gt;, &lt;strong&gt;<br>
+        Wyświetlają się obok siebie w jednej linii, nie rozpoczynają nowej linii. Przeglądarka ustawia im właściwość <code>display: inline</code>.
+    </li>
+    <li><b>Blokowe (block):</b> &lt;div&gt;, &lt;p&gt;, &lt;article&gt;<br>
+        Zajmują całą szerokość i są wyświetlane jeden pod drugim. Domyślnie mają <code>display: block</code>.
+    </li>
+    <li><b>Blokowo-liniowe (inline-block):</b> &lt;input&gt;, &lt;textarea&gt;<br>
+        Wyświetlają się obok siebie jak elementy liniowe, ale można im ustawiać rozmiary jak elementom blokowym. Mają <code>display: inline-block</code>.
+    </li>
+</ol>
+
+</body>
+</html>
